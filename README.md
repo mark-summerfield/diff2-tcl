@@ -18,7 +18,7 @@ control so github is only used to make the code public.
 
 ## Dependencies
 
-Tcl/Tk >= 9.0.2; Tcllib >= 2.0; Tklib >= 0.9.
+Tcl >= 9.0.2; Tcllib >= 2.0.
 
 ## License
 
