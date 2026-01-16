@@ -1,4 +1,9 @@
-diff.tcl
+# A line-by-line diff util
+#   - that can also do patch files (for plain text formats)?
+#   - that can also handle specific formats (JSON,XML,SQLite,PDF)?
+
+ddiff.tcl
+config-1.tm
 diff-1.tm
 diff_struct-1.tm
 
