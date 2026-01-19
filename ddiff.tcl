@@ -21,9 +21,8 @@ proc main {} {
 
 proc get_config {} {
     set config [Config new 0 context]
-    # TODO set args [util::pre_process_args $::argv]
-    set args $::argv
-    for {set i 0} {$i < [llength $args]} {incr i} {
+    lassign [util::pre_process_args $::argv] n args
+    for {set i 0} {$i < $n} {incr i} {
         set arg [lindex $args $i]
         switch $arg {
             -f - --format {
